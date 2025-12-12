@@ -4,10 +4,10 @@ import ic_circle_stack from '../../../../public/svgs/ic_circle_stack.svg';
 import ic_arrows_left_right from '../../../../public/svgs/ic_arrows_right_left.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ['Your Financial Freedom,', 'Your Way'];
+export const desktopHeaderPhrase = ['Your Digital Distribution,', 'Your Way'];
 export const desktopParagraphPhrase = [
-  'We believe that managing your finances should be effortless and cost-effective.',
-  "That's why we offer you the freedom you deserve.",
+  'We streamline product distribution through a smarter, digital-first approach.',
+  "Empowering your growth across Indonesia.",
 ];
 export const desktopBriefNotePhrase = [
   'Smart investments,',
@@ -17,11 +17,11 @@ export const desktopBriefNotePhrase = [
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ['Your Financial', 'Freedom, Your Way'];
+export const mobileHeaderPhrase = ['Your Digital', 'Distribution, Your Way'];
 export const mobileParagraphPhrase = [
-  'We believe that managing your finances should be',
-  "effortless and cost-effective. That's why we offer",
-  ' you the freedom you deserve.',
+  'We streamline product distribution through a smarter',
+  "digital-first approach",
+  ' Empowering your growth across Indonesia.',
 ];
 
 export const mobileBriefNotePhrase = [
@@ -36,21 +36,21 @@ export const mobileBriefNotePhrase = [
 
 export const edges = [
   {
-    point: 'No minimum balance fees',
+    point: 'Platform for Partners',
     details:
-      'Say goodbye to minimum balance fees. Your account, your balance—no hidden charges',
-    icon: ic_banknotes,
+      'engage its customers with content and direct conversion to transaction, end-to-end from product browsing to payment.',
+    // icon: ic_banknotes,
   },
   {
-    point: 'No monthly fees',
+    point: 'Offer fulfilment warehouses and logistics',
     details:
-      'Bank with us without worrying about monthly fees. Keep more of your money where it belongs—in your account',
-    icon: ic_circle_stack,
+      'capabilities that can help accelerate Partners digital distribution expansion in Indonesia.​',
+    // icon: ic_circle_stack,
   },
   {
-    point: 'No bank transfer fees',
+    point: 'Provide Partners with data on customers',
     details:
-      'Seamlessly transfer funds without the extra cost. Send and receive money with zero bank transfer fees.',
-    icon: ic_arrows_left_right,
+      'emographics and purchase patterns, generating valuable insights to improve product selection and marketing strategy',
+    // icon: ic_arrows_left_right,
   },
 ];

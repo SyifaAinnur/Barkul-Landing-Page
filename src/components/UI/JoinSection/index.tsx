@@ -46,7 +46,7 @@ const JoinSection = () => {
     <Wrapper>
       <Inner>
         <Header>
-          <MaskText phrases={desktopHeaderPhrase} tag="h1" />
+          <MaskText phrases={desktopHeaderPhrase} tag="h1" color='#ffff'  />
         </Header>
         <TestimonialWrapper>
           {mappedTestimonials.map((t, i) => (
@@ -54,12 +54,12 @@ const JoinSection = () => {
               <Testimony>{t.testimony}</Testimony>
               <UserInfo>
                 <Name>
-                  <MaskText phrases={new Array(t.person)} tag="h3" />
-                  <MaskText phrases={new Array('Happy RAFT User')} tag="p" />
+                  <MaskText phrases={new Array(t.person)} tag="h3" color='#ffff' />
+                  {/* <MaskText phrases={new Array('Happy RAFT User')} tag="p" /> */}
                 </Name>
-                <Avatar>
+                {/* <Avatar>
                   <Image src={t.avatar} alt="user avatar" />
-                </Avatar>
+                </Avatar> */}
               </UserInfo>
             </Testimonial>
           ))}

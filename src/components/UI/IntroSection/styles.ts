@@ -82,8 +82,10 @@ export const CardsContainer = styled.div`
 
 export const LeftImage = styled(Image)`
   transform: rotate(270deg);
+    width: 51.875rem;
+  height: 23.875rem;
   position: absolute;
-  top: 64px;
+  // top: 64px;
   transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 
   &.active {
@@ -99,10 +101,10 @@ export const MiddleImage = styled(Image)`
 `;
 
 export const RightImage = styled(Image)`
-  width: 21.875rem;
-  height: 13.875rem;
+  width: 51.875rem;
+  height: 23.875rem;
   transform: rotate(90deg);
-  top: 65px;
+  // top: 65px;
   position: absolute;
   transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
 

@@ -27,6 +27,13 @@ import {
   mobileParagraphPhrase,
 } from './constants';
 
+
+import fitur1 from '../../../../public/images/image/Frame 1.png';
+import fitur2 from '../../../../public/images/image/Frame 2.png';
+import fitur3 from '../../../../public/images/image/fitur3.png';
+import fitur4 from '../../../../public/images/image/fitur4.png';
+import fitur5 from '../../../../public/images/image/fitur5.png';
+
 const FinancialFreedom = () => {
   const isMobile = useIsMobile();
 
@@ -55,9 +62,17 @@ const FinancialFreedom = () => {
             viewport={{ amount: 0.25, once: true }}
           >
             {isMobile ? (
-              <Image src={freedom_mobile_banner} alt="banner_img" fill />
+                <Image src={fitur2} alt="banner_img" fill />
             ) : (
-              <Image src={financial_freedom_banner} alt="banner_img" fill />
+
+              <div className="flex items-center gap-4">
+                <Image src={fitur1} alt="fitur" fill style={{ objectFit: 'contain', scale: 1 }} />
+                {/* <Image src={fitur2} alt="fitur" width={260} height={560} />
+                <Image src={fitur3} alt="fitur" width={260} height={560} />
+                <Image src={fitur4} alt="fitur" width={260} height={560} />
+                <Image src={fitur5} alt="fitur" width={260} height={560} /> */}
+              </div>
+
             )}
           </Div>
         </BannerCtn>
@@ -65,7 +80,7 @@ const FinancialFreedom = () => {
           {edges.map((edge, i) => (
             <Edge key={i}>
               <Title>
-                <Image src={edge.icon} alt="icon" />
+                {/* <Image src={edge.icon} alt="icon" /> */}
                 <MaskText phrases={new Array(edge.point)} tag="h3" />
               </Title>
               <MaskText phrases={new Array(edge.details)} tag="p" />
@@ -73,13 +88,13 @@ const FinancialFreedom = () => {
           ))}
         </Edges>
       </Inner>
-      <BriefNote>
+      {/* <BriefNote>
         {isMobile ? (
           <MaskText phrases={mobileBriefNotePhrase} tag="p" />
         ) : (
           <MaskText phrases={desktopBriefNotePhrase} tag="p" />
         )}
-      </BriefNote>
+      </BriefNote> */}
     </Wrapper>
   );
 };

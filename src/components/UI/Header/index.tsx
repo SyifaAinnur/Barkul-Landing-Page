@@ -18,13 +18,19 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { links, menu } from './constants';
 
+import logokecil from '../../../../public/images/image/logokecil.png';
+
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={raft_logo} alt="raft_logo" priority />
+          <Image src={logokecil} alt="raft_logo" priority style={{
+            height:50,
+            width:50
+          }} />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
@@ -40,7 +46,7 @@ const Header = () => {
           ))}
         </Nav>
         <CallToActions className={isOpen ? 'active' : ''}>
-          <AnimatedLink title="Login" />
+          {/* <AnimatedLink title="Login" /> */}
           <GetStartedButton padding="0.5rem 0.75rem" />
         </CallToActions>
       </Inner>

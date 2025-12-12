@@ -19,23 +19,23 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: 'What is Barangkulakan?',
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Barangkulakan is an e-Distribution platform that carries a wide range of product categories from Multi-Principal, which serving General Trade Channel with sharing economy concept through innovative digital solutions. ​',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: 'How to get Barangkulakan?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'you can download Barangkulakan from the Google Play Store. or click the button​',
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question: 'How to register as a customer?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Next, you can open the Barangkulakan application, then click "Login", followed by "Register", and select "New User". After that, click "Start Registration". Please enter your store name, phone number, and a valid address. If you do not have a referral code, you may leave it blank. Then, proceed with the next steps as guided in the application.',
   },
-  {
-    question: 'What benefits does RAFT offer for wealth management?',
-    answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
-  },
+  // {
+  //   question: 'What benefits does RAFT offer for wealth management?',
+  //   answer:
+  //     'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+  // },
 ];

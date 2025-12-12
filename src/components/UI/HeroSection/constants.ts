@@ -1,13 +1,13 @@
 // For desktop
-export const phrases = ['Building the future of', 'banking.'];
+export const phrases = ['Empowering Digital Distribution', 'Across Indonesia.'];
 export const paragraphPhrases = [
-  "Experience the future of banking with RAFT. We're here to",
-  'empower your financial journey.',
+  "Barangkulakan is an e-Distribution platform offering multi-principal product categories",
+  'serving the General Trade Channel through a sharing-economy concept with innovative digital solutions.',
 ];
 
 // For mobile
-export const mobilePhrases = ['Building the future', 'of banking'];
+export const mobilePhrases = ['Empowering Digital Distribution', 'Across Indonesia.'];
 export const mobileParagraphPhrases = [
-  "Experience the future of banking with RAFT. We're",
-  'here to empower your financial journey.',
+  "Barangkulakan is an e-Distribution platform offering multi-principal product categories",
+  'serving the General Trade Channel through a sharing-economy concept with innovative digital solutions.',
 ];

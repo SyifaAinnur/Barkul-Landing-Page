@@ -25,6 +25,11 @@ import {
   mobileParagraphPhrase,
 } from './constants';
 
+
+import mission1 from '../../../../public/images/image/MISSION1.png';
+import mission2 from '../../../../public/images/image/MiSSION2.png';
+import mission3 from '../../../../public/images/image/MISSION3.png';
+
 const IntroSection = () => {
   const isMobile = useIsMobile();
   const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -51,26 +56,32 @@ const IntroSection = () => {
         <CardsContainer>
           <LeftImage
             className={isHovered ? 'active' : ''}
-            src={orange_card}
+            src={mission2}
             alt="orange_atm_card"
+            // style={{
+            //   height: "40%", width: "40%"
+            // }}
           />
           <MiddleImage
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            src={lola_card}
+            src={mission1}
             alt="blue card"
           />
           <RightImage
             className={isHovered ? 'active' : ''}
-            src={terry_card}
+            src={mission3}
             alt="terry card"
+            // style={{
+            //   height: "40%", width: "40%"
+            // }}
           />
         </CardsContainer>
         <Edges>
           {edges.map((edge, i) => (
             <Edge key={i}>
               <Title>
-                <Image src={edge.icon} alt="icon" />
+                {/* <Image src={edge.icon} alt="icon" /> */}
                 <MaskText phrases={new Array(edge.point)} tag="h3" />
               </Title>
               <MaskText phrases={new Array(edge.details)} tag="p" />

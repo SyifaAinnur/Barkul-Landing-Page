@@ -3,39 +3,37 @@ import ic_identification from '../../../../public/svgs/ic_identification.svg';
 import ic_lock_closed from '../../../../public/svgs/ic_lock_closed.svg';
 
 // For desktop
-export const desktopHeaderPhrase = ["Introducing RAFT's Next-", 'Gen Cards'];
+export const desktopHeaderPhrase = ["Introducing Brand", 'Mission and Loyalty Program'];
 export const desktopParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards. Elevate your banking",
-  'experience with cutting-edge features, security, and unprecedented',
+  " to cultivate enduring​ relationships, enhance customer satisfaction,​​",
+  'and drive long-term business value.',
   'convenience.',
 ];
 
 // For mobile
-export const mobileHeaderPhrase = ["Introducing RAFT's", 'Next-Gen Cards'];
+export const mobileHeaderPhrase = ["Introducing Brand", 'Mission and Loyalty Program'];
 export const mobileParagraphPhrase = [
-  " Discover RAFT's latest innovation – our new cards.",
-  ' Elevate your banking experience with cutting-edge',
-  'features, security, and unprecedented',
-  'convenience.',
+ " to cultivate enduring​ relationships, enhance customer satisfaction,​​",
+  'and drive long-term business value.',
 ];
 
 export const edges = [
   {
-    point: 'Contactless Technology',
+    point: 'Daily Check-in',
     details:
-      'Our new cards come equipped with contactless technology, allowing you to make swift, secure payments with a simple tap.',
+      'Your card features a daily check-in feature, allowing you to log in and check out quickly, making your earn coins easier.',
     icon: ic_document_duplicate,
   },
   {
-    point: 'Personalization',
+    point: 'Majang',
     details:
-      'Customize your card to reflect your unique style. Choose from a range of designs that suit your personality.',
+      'Capture your products on self, making it easy for customers to get coins.',
     icon: ic_identification,
   },
   {
-    point: 'Enhanced Security',
+    point: 'Transaction',
     details:
-      'Your peace of mind is our priority. Our cards feature advanced security measures to protect your transactions and data.',
+      'Get coins by completing missions and transactions, making it easier for you to get coins.',
     icon: ic_lock_closed,
   },
 ];

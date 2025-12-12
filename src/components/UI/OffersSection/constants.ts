@@ -4,44 +4,42 @@ import wealth_management from '../../../../public/images/wealth_management.png';
 import financial_planning from '../../../../public/images/financial_planning.png';
 // For desktop
 export const desktopHeaderPhrases = [
-  'Elevate Your Financial',
-  'Journey with RAFT',
+  'Empowering Digital Growth',
+  'With Barangkulakan',
 ];
 export const desktopParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From investments to payments,',
-  "we've got you covered. Join us and unlock your potential today.",
+  'Barangkulakan delivers solutions through its platform and infrastructure​',
+  "Trusted by leading brands like Garuda, Gery, Chocolatos, Okky, Mountea, and more.​",
 ];
 
 // For mobile
 export const mobileParagraphPhrase = [
-  'RAFT offers a world of financial possibilities. From',
-  "investments to payments, we've got you covered.",
-  'Join us and unlock your potential today.',
+  'Barangkulakan delivers end-to-end solutions through its platform and infrastructure',
+  "Trusted by leading brands like Garuda, Gery, Chocolatos, Okky, Mountea, and more.",
 ];
 
 export const offers = [
   {
     illustration: seamless_payments,
-    title: 'Seamless Payments',
+    title: 'TRUST​',
     details:
-      'Enjoy secure, seamless transactions that make managing your money a breeze.',
+      '​Gain trust from potential​ customers instantly.​',
   },
   {
     illustration: smart_investing,
-    title: 'Smart Investing',
+    title: 'AWARENESS​',
     details:
-      'Grow your wealth confidently with our personalized investment solutions, tailored to your financial goals.',
+      'Increase customers awareness towards brand partners.​ ​',
   },
   {
     illustration: wealth_management,
-    title: 'Wealth Management',
+    title: 'FEATURES​',
     details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
-  },
+      'Unlock exclusive features and media placement.​', },
   {
     illustration: financial_planning,
-    title: 'Financial Planning',
+    title: 'NEW​ MARKET​',
     details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
+      'Reach new market and gain new​ potential customers.​ ​',
   },
 ];

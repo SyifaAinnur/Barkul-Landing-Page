@@ -3,7 +3,7 @@ import { Body, LineMask } from './styles';
 import { useInView, motion } from 'framer-motion';
 import { useRef } from 'react';
 
-const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
+const MaskText = ({ phrases, tag, color }: { phrases: string[]; tag: string, color?: string }) => {
   const animate = {
     initial: {
       y: '100%',
@@ -22,6 +22,7 @@ const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
           <LineMask key={index}>
             {tag === 'h1' ? (
               <motion.h1
+              style={{ color}}
                 variants={animate}
                 initial="initial"
                 animate={isInView ? 'open' : ''}
@@ -31,6 +32,7 @@ const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
               </motion.h1>
             ) : tag === 'h2' ? (
               <motion.h2
+              style={{ color}}
                 variants={animate}
                 initial="initial"
                 animate={isInView ? 'open' : ''}
@@ -40,6 +42,7 @@ const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
               </motion.h2>
             ) : tag === 'h3' ? (
               <motion.h3
+              style={{ color}}
                 variants={animate}
                 initial="initial"
                 animate={isInView ? 'open' : ''}
@@ -49,6 +52,7 @@ const MaskText = ({ phrases, tag }: { phrases: string[]; tag: string }) => {
               </motion.h3>
             ) : (
               <motion.p
+              style={{ color}}
                 variants={animate}
                 initial="initial"
                 animate={isInView ? 'open' : ''}

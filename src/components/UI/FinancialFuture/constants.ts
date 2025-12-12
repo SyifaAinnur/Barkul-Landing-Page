@@ -17,20 +17,20 @@ export const cardsInfo = [
 
 export const stats = [
   {
-    number: '50+',
-    subtitle: 'cities',
+    number: '42K+',
+    subtitle: 'Monthly Active​ User​',
   },
   {
-    number: '50,000+',
-    subtitle: 'transactions',
+    number: '1K+',
+    subtitle: 'Mid & Last Miles​ Transportion​',
   },
   {
-    number: '3M+',
-    subtitle: 'users',
+    number: '120K+​',
+    subtitle: 'Registered User​',
   },
   {
-    number: '5+',
-    subtitle: 'user ratings',
+    number: '126',
+    subtitle: 'Fulfilment Centre​',
   },
 ];
 

@@ -6,6 +6,8 @@ import ic_baseline_apple from '../../../../public/svgs/ic_baseline_apple.svg';
 import ic_chevron_down from '../../../../public/svgs/ic_chevron_down.svg';
 import ic_copyright from '../../../../public/svgs/ic_copyright.svg';
 
+import logo from '../../../../public/images/image/logo.png';
+
 const linksArr = [
   {
     title: 'About us',
@@ -44,7 +46,10 @@ const Footer = () => {
     <Wrapper>
       <Inner>
         <FooterLogo>
-          <Image src={raft_footer_logo} alt="raft_footer_logo" />
+          <Image src={logo} alt="raft_footer_logo" style={{
+            width: "50%",
+            height: 120
+          }} />
         </FooterLogo>
         <FooterMainContent>
           <FooterMiddle>
@@ -53,7 +58,7 @@ const Footer = () => {
                 <Image src={qr_code} alt="qr_code" />
               </QRImageCtn>
               <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
+                <p>Scan to download App on the Playstore </p>
                 <IconCtn>
                   <Image src={ic_google_playstore} alt="playstore icon" />
                   <Image src={ic_baseline_apple} alt="apple icon" />
@@ -74,13 +79,13 @@ const Footer = () => {
             </FooterNavigation>
           </FooterMiddle>
           <FooterBottom>
-            <Translator>
+            {/* <Translator>
               <h3>English (United Kingdom)</h3>
               <Image src={ic_chevron_down} alt="chevron down" />
-            </Translator>
+            </Translator> */}
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-              Raft Corp, LLC.
+              Barangkulakan Corp, LLC.
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>
